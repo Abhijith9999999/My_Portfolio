@@ -1,5 +1,5 @@
-import MyPort from "./myport";
+import Portfolio from "./myport";
 
 export default function Home() {
-  return <MyPort />;
+  return <Portfolio />;
 }
