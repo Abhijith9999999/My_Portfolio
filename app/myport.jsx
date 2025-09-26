@@ -8,6 +8,7 @@ const Portfolio = () => {
   const [scrollY, setScrollY] = useState(0);
   const [currentSection, setCurrentSection] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
+  const navRefs = useRef([]);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoaded(true), 100);
