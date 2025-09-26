@@ -1,7 +1,7 @@
 'use client';
 
 import { Award, ChevronDown, Download, ExternalLink, Github, Linkedin, Mail, MapPin, Star } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 const Portfolio = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
